@@ -1,4 +1,4 @@
-package course.examples.ContentProviders.ContactsList;
+qpackage course.examples.ContentProviders.ContactsList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,5 +28,5 @@ public class ContactsListExample extends ListActivity {
 		}
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_item, contacts);
 		setListAdapter(adapter);
-	}
+	}q
 }
